@@ -41,3 +41,6 @@ pred = kmeans.fit_predict(scaled_data)
 
 # Display the predictions
 print(pred)
+df2['Cluster']=pred
+print(df2.head())
+print(df2['Cluster'].value_counts())
